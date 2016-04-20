@@ -1,0 +1,10 @@
+.color {
+    color: green;
+    background-color: black;
+}
+
+.noun {
+    color: red;
+    font-weight: bold;
+    background-color: black;
+}

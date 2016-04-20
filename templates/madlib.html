@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Madlib</title>
+        <link rel="stylesheet" href="static/madlibs.css">
+    </head>
+    <!-- get form data from game.html to mablib.html -->
+
+    <body>
+
+        There once was a <span class="color">{{ color }}</span><span class="noun"> {{ noun }} </span> sitting in the Hackbright Lab. When 
+        {% if adjectivetwo %}
+            {% for word in adjectivetwo %}
+                <span class="color"> {{word}} </span>
+
+            {% endfor %}
+        {% endif %}
+        {{ firstname }} went to pick it up, it burst into flames in a totally {{ adjective }} way. 
+
+    </body>
+</html>
